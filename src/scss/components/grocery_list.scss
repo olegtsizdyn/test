@@ -1,0 +1,24 @@
+.grocery_list_wrapper{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    .form_add_grocery{
+        display: flex;
+    }
+    .item_list{
+        width: 130px;
+        display: flex;
+        justify-content: space-between;
+    }
+    table{
+        width: 50%;
+        tbody{
+            tr{
+                td{
+                    text-align: center;
+                }
+            }
+        }
+    }
+}
